@@ -10,7 +10,6 @@ function ModalPosition({baseUrl, data, setData, showModalPos, setShowModalPos, p
     .then(response => {
         setPosition(response.data)
         setData({...data, ["UpdatePositions"]:true});
-        console.log(data.Positions)
         setShowModalPos(!showModalPos)
     }).catch(error =>{
     console.log(error);

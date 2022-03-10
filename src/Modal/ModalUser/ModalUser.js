@@ -51,6 +51,7 @@ function ModalUser({setData, baseUrl, data, showModal, setshowModalAddUser, user
                     <br />
                     <input 
                         type="number" 
+
                         className="form-control"
                         name="cpf"
                         onChange={handleChange}

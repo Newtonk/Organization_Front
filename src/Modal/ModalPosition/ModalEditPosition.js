@@ -29,9 +29,6 @@ function ModalEditPosition({setData, baseUrl, data, showModalEditPos, setShowMod
             ...position,[name]:value
         })
     }
-console.log(data.Positions)
-console.log(data.Sectors)
-console.log(data.Users)
 
     return(
     <div className="modal_position_edit">

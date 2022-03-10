@@ -32,7 +32,7 @@ const selectPosition = (position, option) =>{
     toggleEditModal() : toggleDelModal();
 }
 
-
+console.log(data)
 return(
 <div className="Positions">
     <h3>Cadastro de Cargos</h3>
